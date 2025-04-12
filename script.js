@@ -113,6 +113,38 @@ function copyCSV() {
     });
 }
 
+$(document).ready(function () {
+    // Add event listeners for the Experiment and Theory checkboxes
+    $('#experiment-checkbox, #theory-checkbox').on('change', function () {
+        const showExperiment = $('#experiment-checkbox').is(':checked');
+        const showTheory = $('#theory-checkbox').is(':checked');
 
+        // Ensure at least one checkbox is always checked
+        if (!showExperiment && !showTheory) {
+            // Automatically re-check the other checkbox
+            if ($(this).attr('id') === 'experiment-checkbox') {
+                $('#theory-checkbox').prop('checked', true).trigger('change'); // Re-call the function
+            } else {
+                $('#experiment-checkbox').prop('checked', true).trigger('change'); // Re-call the function
+            }
+            return; // Exit to avoid duplicate logic execution
+        }
+
+        // Determine the filter logic based on the checkbox states
+        if (showExperiment && showTheory) {
+            // Default behavior: no extra filter
+            table.column(5).search('').draw();
+        } else if (!showExperiment && showTheory) {
+            // Hide rows with 'exp' in the "Method" column
+            table.column(5).search('^(?!.*exp).*$', true, false).draw();
+        } else if (showExperiment && !showTheory) {
+            // Hide rows without 'exp' in the "Method" column
+            table.column(5).search('exp', true, false).draw();
+        } else {
+            // Both unchecked: hide all rows (should not happen due to the above logic)
+            table.column(5).search('a^', true, false).draw(); // Regex that matches nothing
+        }
+    });
+});
 
 loadCSV();
