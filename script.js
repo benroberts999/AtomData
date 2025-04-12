@@ -2,7 +2,7 @@ let table;
 let fullData = [];
 
 function loadCSV() {
-    Papa.parse("Data-table.csv", {
+    Papa.parse("data/Data-table.csv", {
         download: true,
         header: true,
         complete: function (results) {
@@ -34,8 +34,8 @@ function loadCSV() {
                         searchable: true    // included in search
                     }
                 ],
-                pageLength: 50,
-                lengthMenu: [[25, 50, 200, -1], [25, 50, 200, "All"]]
+                pageLength: 150,
+                lengthMenu: [[50, 150, -1], [50, 150, "All"]]
             });
             $('#data-table_filter input')
                 .attr('placeholder', 'Author, Year, ...')
