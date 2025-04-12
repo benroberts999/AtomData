@@ -4,13 +4,106 @@
 <head>
     <meta charset="UTF-8" />
     <title>Atom Table Viewer</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css" />
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9f9fb;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .filter-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        input#filter-input {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+            min-width: 250px;
+        }
+
+        button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #004999;
+        }
+
+        table.dataTable {
+            border-radius: 6px;
+            overflow: hidden;
+            background: white;
+        }
+
+        #data-table_wrapper {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .note-button {
+            background: none;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .note-popup-floating {
+            position: absolute;
+            background: #fff7d6;
+            border: 1px solid #ccc;
+            padding: 0.75rem;
+            max-width: 300px;
+            font-size: 0.9rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            white-space: normal;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Filter by Atom or Atom + B</h2>
-    <input type="text" id="filter-input" placeholder="e.g. H or H,2" />
-    <button onclick="applyFilter()">Filter</button>
+    <h2>Atom Data Table Viewer</h2>
+
+    <div class="filter-group">
+        <input type="text" id="filter-input" placeholder="e.g. H or H,2" />
+        <button onclick="applyFilter()">Filter</button>
+    </div>
 
     <table id="data-table" class="display" style="width:100%">
         <thead>
@@ -19,12 +112,17 @@
                 <th>A</th>
                 <th>B</th>
                 <th>Value</th>
+                <th>Uncertainty</th>
+                <th>Method</th>
+                <th>Year</th>
+                <th>Notes</th> <!-- just a placeholder, will render an icon -->
             </tr>
         </thead>
         <tbody></tbody>
     </table>
 
-    <!-- Load JS dependencies -->
+
+    <!-- JS Libraries -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
