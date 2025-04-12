@@ -144,8 +144,9 @@
                 <th>Value</th>
                 <th>Uncertainty</th>
                 <th>Method</th>
+                <th>Reference</th> <!-- Moved column header -->
                 <th>Year</th>
-                <th>Notes</th> <!-- just a placeholder, will render an icon -->
+                <th>Notes</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -157,6 +158,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <!-- Custom script for table functionality -->
     <script src="script.js"></script>
+    <script>
+        function formatReference(citation) {
+            if (!citation) return '';
+            const surname = citation.split(',')[0].trim();
+            const yearMatch = citation.match(/\((\d{4})\)/);
+            const year = yearMatch ? yearMatch[1] : '';
+            return `${surname}, (${year})`;
+        }
+
+        function populateTable(data) {
+            const tableData = data.map(row => ({
+                ...row,
+                Reference: formatReference(row.Citation) // Add Reference field
+            }));
+
+            $('#data-table').DataTable({
+                data: tableData,
+                columns: [
+                    { data: 'Atom' },
+                    { data: 'A' },
+                    { data: 'B' },
+                    { data: 'Value' },
+                    { data: 'Uncertainty' },
+                    { data: 'Method' },
+                    { data: 'Year' },
+                    { data: 'Reference' }, // Moved column
+                    { data: 'Notes' }
+                ]
+            });
+        }
+    </script>
 </body>
 
 </html>

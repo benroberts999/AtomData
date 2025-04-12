@@ -24,7 +24,32 @@ function loadCSV() {
                     { data: "Value" },
                     { data: "Uncertainty" },
                     { data: "Method" },
-                    { data: "Year" },
+                    {
+                        data: "Reference", // Add Reference column
+                        render: function (data, type, row) {
+                            if (!row.Citation) return '';
+                            let citation = row.Citation;
+
+                            // Handle cases where there's no comma or "and"
+                            let surname = citation.split(',')[0].trim();
+                            if (!citation.includes(',')) {
+                                surname = citation.split('and')[0].trim();
+                            }
+
+                            // Extract the last full word (longer than an initial)
+                            const words = surname.split(' ').filter(word => word.length > 1 || !word.endsWith('.'));
+                            surname = words.length > 0 ? words[words.length - 1] : '';
+
+                            return `
+                                <span class="reference-text" 
+                                      onmouseover="showNotePopup(this, \`${citation.replace(/`/g, "\\`")}\`)" 
+                                      onmouseout="hideNotePopup()">
+                                    ${surname} <i>et al.</i>
+                                </span>
+                            `;
+                        }
+                    },
+                    { data: "Year" }, // Move Year column here
                     {
                         // Render a button for notes if data exists
                         data: "Notes",
@@ -100,6 +125,12 @@ function showNotePopup(button, noteText) {
             document.removeEventListener('click', handler);
         }
     });
+}
+
+// Function to hide the popup
+function hideNotePopup() {
+    const popup = document.querySelector('.note-popup-floating');
+    if (popup) popup.remove();
 }
 
 // Function to copy the current table view as CSV to the clipboard
