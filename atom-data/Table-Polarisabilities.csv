@@ -1,0 +1,16 @@
+Atom,State A,State B,Value,Error,Method,Year,Citation,Note,Short-Ref
+Cs,6p_1/2,6s_1/2,936,,CCSDpT + Expt,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501",,Safronova2004b
+Cs,6p_1/2,6s_1/2,927.35,0.12,Expt,1992,"L. R. Hunter et al., Opt. Commun. 94, 210 (1992).",,
+Cs,6p_1/2,,1404,24,CCSDpT + Expt,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501",,Safronova2004b
+Cs,6p_3/2,6s_1/2,1248,,CCSDpT + Expt,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501",,Safronova2004b
+Cs,6p_3/2,6s_1/2,1240.2,2.4,Expt,1988,"C. E. Tanner and C. Wieman, Phys. Rev. A 38, 162 (1988).",,
+Cs,6p_3/2,,1720,18,CCSDpT + Expt,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501",,Safronova2004b
+Cs,6s_1/2,7s,5837,6,Expt,1999,"Bennett S C, Roberts J L and Wieman C E 1999 Phys. Rev. A 59 R16",,
+Cs,6s_1/2,7s,5709,19,Expt,1983,"Watts R N, Gilbert S L and Wieman C E 1983 Phys. Rev. A 27 2769",,
+Cs,6s_1/2,,398.2,0.9,CCSDpT + Expt,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501","J. Mitroy, M. S. Safronova, and C. W. Clark, J. Phys. B 43, 44 (2010).",Safronova2004b
+Cs,6s_1/2,,396.02,,RCCSDT,2005,"Lim I S, Schwerdtfeger P, Metz B and Stoll H 2005 J. Chem. Phys. 122 104103",,
+Cs,6s_1/2,,398.4,0.7,RLCCSDT,2007,"Iskrenova-Tchoukova E, Safronova M S and Safronova U I 2007 J. Comput. Methods Sci. Eng. 7 521",,
+Cs,6s_1/2,,401.0,0.6,Expt,2003,"J. M. Amini and H. Gould, Phys. Rev. Lett. 91, 153001 (2003)",,
+Cs,6s_1/2,,400.8,0.4,Expt,2015,"Phys. Rev. A 92, 052513-1-14 (2015); Atoms 4, 21-1-23 (2016) + P. Schwerdtfeger and J. K. Nagle, Mol. Phys. 117, 1200 (2019).",,
+Cs,7p_1/2,,29.6,0.6,Expt,1983,Domelunksen V 1983 Opt. Spectrosk. 54 565,,
+Cs,7p_3/2,,37.9,0.8,Expt,1968,Khvostenko G and Chaika M 1968 Opt. Spectrosk. 25 246,,

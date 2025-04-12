@@ -1,0 +1,24 @@
+Atom,State,Value,Error,Method,Year,Citation,Short-Ref
+Ba+,5d_3/2 (s),81.5,,PTSCI,2001,"V. A. Dzuba, V. V. Flambaum, and J. S. M. Ginges, Phys. Rev. A 63, 062101 (2001).",
+Ba+,5d_3/2 (s),83.7,,CCSD?,1991,"C. Guet and W.R. Johnson, Phys. Rev. A 44, 1531 (1991)",
+Ba+,5d_3/2 (s),79.8,4.6,Expt,1997,"N. Yu, W. Nagourney, and H. Dehmelt, Phys. Rev. Lett. 78, 4898 (1997)",
+Ba+,5d_5/2 (s),30.3,,PTSCI,2001,"V. A. Dzuba, V. V. Flambaum, and J. S. M. Ginges, Phys. Rev. A 63, 062101 (2001).",
+Ba+,5d_5/2 (s),37.2,,CCSD?,1991,"C. Guet and W.R. Johnson, Phys. Rev. A 44, 1531 (1991)",
+Ba+,5d_5/2 (s),34.5,3.5,Expt,1990,"A.A. Madej and J.D. Sankey, Phys. Rev. A 41, 2621 (1990).",
+Ba+,6p_1/2,7.89,,PTSCI,2001,"V. A. Dzuba, V. V. Flambaum, and J. S. M. Ginges, Phys. Rev. A 63, 062101 (2001).",
+Ba+,6p_1/2,7.99,,CCSD?,1991,"C. Guet and W.R. Johnson, Phys. Rev. A 44, 1531 (1991)",
+Ba+,6p_1/2,7.90,0.10,Expt,1995,"E.H. Pinnington, R.W. Berends, and M. Lumsden, J. Phys. B 28, 2095 (1995)",
+Ba+,6p_3/2,6.30,,PTSCI,2001,"V. A. Dzuba, V. V. Flambaum, and J. S. M. Ginges, Phys. Rev. A 63, 062101 (2001).",
+Ba+,6p_3/2,6.39,,CCSD?,1991,"C. Guet and W.R. Johnson, Phys. Rev. A 44, 1531 (1991)",
+Ba+,6p_3/2,6.32,0.1,Expt,1995,"E.H. Pinnington, R.W. Berends, and M. Lumsden, J. Phys. B 28, 2095 (1995)",
+Cs,5d_3/2,981,,CCSDpT,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501",Safronova2004b
+Cs,5d_3/2,909,15,Expt,1998,"D. DiBerardino et al., Phys. Rev. A 57, 4204 (1998).",
+Cs,5d_5/2,1369,,CCSDpT,2004,"Safronova, Clark 10.1103/PhysRevA.69.040501",Safronova2004b
+Cs,5d_5/2,1281,9,Expt,,"D. DiBerardino et al., Phys. Rev. A 57, 4204 (1998).",
+Cs,5d_5/2,1353,5,Expt,2020,"Pucher et al, 10.1103/PhysRevA.101.042510",Pucher2020
+Cs,6p_1/2,34.80,0.07,Expt+Theory,2002,"Derevianko, Porsev  10.1103/PhysRevA.65.053403",Derevianko2002a
+Cs,6p_3/2,30.39,0.06,Expt+Theory,2002,"Derevianko, Porsev  10.1103/PhysRevA.65.053403",Derevianko2002a
+Cs,6p_3/2,30.462,0.046,Expt,2015,"Patterson et al, 10.1103/PhysRevA.91.012506",Patterson2015
+Cs,7p_1/2,165.21,0.19,Expt,2019,"Toh et al, 10.1103/PhysRevA.100.052507",Toh2019a
+Cs,7p_3/2,137.54,0.16,Expt,2019,"Toh et al, 10.1103/PhysRevA.100.052507",Toh2019a
+Cs,7s,48.28,0.07,Expt,2018,"Toh et al, 10.1103/PhysRevA.97.052507",Toh2018
