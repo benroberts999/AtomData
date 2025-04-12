@@ -135,29 +135,25 @@ function copyCSV() {
 }
 
 // Function to create and display a dropdown with matching atoms
-function showAtomDropdown(inputValue) {
+function showAtomDropdown(inputValue = "") {
     const dropdown = document.getElementById("atom-dropdown");
     dropdown.innerHTML = ""; // Clear previous suggestions
 
-    // If the input is empty, hide the dropdown
-    if (!inputValue.trim()) {
-        dropdown.style.display = "none";
-        return;
-    }
-
-    // Filter the unique atoms to find matches based on the input
-    const matchingAtoms = getUniqueAtoms().filter(atom =>
-        atom.toLowerCase().includes(inputValue.toLowerCase())
-    );
+    // If the input is empty, show all atoms
+    const atomsToShow = inputValue.trim()
+        ? getUniqueAtoms().filter(atom =>
+            atom.toLowerCase().includes(inputValue.toLowerCase())
+        )
+        : getUniqueAtoms();
 
     // If no matches are found, hide the dropdown
-    if (matchingAtoms.length === 0) {
+    if (atomsToShow.length === 0) {
         dropdown.style.display = "none";
         return;
     }
 
-    // Create a dropdown item for each matching atom
-    matchingAtoms.forEach(atom => {
+    // Create a dropdown item for each atom
+    atomsToShow.forEach(atom => {
         const option = document.createElement("div");
         option.className = "dropdown-item"; // Ensure the class is applied
         option.textContent = atom; // Set the text to the atom name
@@ -218,6 +214,11 @@ $(document).ready(function () {
     $('#filter-input').on('input', function () {
         const inputValue = $(this).val(); // Get the current input value
         showAtomDropdown(inputValue); // Show the dropdown with matching atoms
+    });
+
+    // Add focus event listener to show all atoms when the filter box is clicked
+    $('#filter-input').on('focus', function () {
+        showAtomDropdown(); // Show all atoms when the input is focused
     });
 
     // Hide the dropdown when clicking outside of the input or dropdown
