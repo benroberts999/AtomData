@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <title>Atom Table Viewer</title>
 
-    <!-- Google Font -->
+    <!-- Import Google Font for consistent typography -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 
-    <!-- DataTables CSS -->
+    <!-- Import DataTables CSS for table styling -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css" />
 
     <style>
+        /* General body styling for layout and appearance */
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f9f9fb;
@@ -23,6 +24,7 @@
             margin-right: auto;
         }
 
+        /* Styling for the main heading */
         h2 {
             font-weight: 600;
             font-size: 1.75rem;
@@ -30,6 +32,7 @@
             text-align: center;
         }
 
+        /* Styling for the filter controls container */
         .filter-group {
             display: flex;
             justify-content: center;
@@ -39,6 +42,7 @@
             flex-wrap: wrap;
         }
 
+        /* Input field styling for the filter */
         input#filter-input {
             padding: 0.5rem 0.75rem;
             border: 1px solid #ccc;
@@ -47,6 +51,7 @@
             min-width: 250px;
         }
 
+        /* Button styling for filter and copy actions */
         button {
             padding: 0.5rem 1rem;
             font-size: 1rem;
@@ -62,12 +67,14 @@
             background-color: #004999;
         }
 
+        /* Styling for the DataTable */
         table.dataTable {
             border-radius: 6px;
             overflow: hidden;
             background: white;
         }
 
+        /* Wrapper styling for the DataTable */
         #data-table_wrapper {
             background: white;
             padding: 1rem;
@@ -75,6 +82,7 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
+        /* Styling for note buttons and popups */
         .note-button {
             background: none;
             border: none;
@@ -98,23 +106,32 @@
 </head>
 
 <body>
+    <!-- Main heading for the page -->
     <h2>Atom Data Table Viewer</h2>
 
+    <!-- Filter controls for the table -->
     <div class="filter-group">
+        <!-- Input field for filtering table rows -->
         <input type="text" id="filter-input" placeholder="e.g. Cs or Ba+" />
+        <!-- Button to apply the filter -->
         <button onclick="applyFilter()">Filter</button>
+        <!-- Button to copy the current table view as CSV -->
         <button onclick="copyCSV()">Copy current view to clipboard</button>
+        <!-- Checkbox to toggle experiment data -->
         <label>
             <input type="checkbox" id="experiment-checkbox" checked /> Experiment
         </label>
+        <!-- Checkbox to toggle theory data -->
         <label>
             <input type="checkbox" id="theory-checkbox" checked /> Theory
         </label>
     </div>
 
+    <!-- DataTable to display atom data -->
     <table id="data-table" class="display" style="width:100%">
         <thead>
             <tr>
+                <!-- Table column headers -->
                 <th>Atom</th>
                 <th>A</th>
                 <th>B</th>
@@ -128,11 +145,11 @@
         <tbody></tbody>
     </table>
 
-
-    <!-- JS Libraries -->
+    <!-- Import JavaScript libraries -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <!-- Custom script for table functionality -->
     <script src="script.js"></script>
 </body>
 

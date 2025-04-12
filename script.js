@@ -1,12 +1,17 @@
+// Global variables for the DataTable instance and the full dataset
 let table;
 let fullData = [];
 
+// Function to load and parse the CSV file
 function loadCSV() {
     Papa.parse("data/Data-table.csv", {
         download: true,
         header: true,
         complete: function (results) {
+            // Store the parsed data
             fullData = results.data;
+
+            // Initialize the DataTable with the parsed data
             table = $('#data-table').DataTable({
                 data: fullData,
                 columns: [
@@ -18,6 +23,7 @@ function loadCSV() {
                     { data: "Method" },
                     { data: "Year" },
                     {
+                        // Render a button for notes if data exists
                         data: "Notes",
                         render: function (data, type, row) {
                             if (!data) return '';
@@ -25,55 +31,59 @@ function loadCSV() {
                             <button class="note-button" onclick="showNotePopup(this, \`${data.replace(/`/g, "\\`")}\`)">📝</button>
                           `;
                         },
-                        orderable: false,
-                        searchable: false
+                        orderable: false, // Disable sorting for this column
+                        searchable: false // Exclude from search
                     },
                     {
+                        // Hidden column for citations, searchable but not visible
                         data: "Citation",
-                        visible: false,     // hidden from view
-                        searchable: true    // included in search
+                        visible: false,
+                        searchable: true
                     }
                 ],
-                pageLength: 150,
-                lengthMenu: [[50, 150, -1], [50, 150, "All"]]
+                pageLength: 150, // Default number of rows per page
+                lengthMenu: [[50, 150, -1], [50, 150, "All"]] // Page length options
             });
+
+            // Customize the search input placeholder
             $('#data-table_filter input')
                 .attr('placeholder', 'Author, Year, ...')
                 .css('width', '250px');
-
         }
     });
 }
 
+// Function to apply a custom filter based on user input
 function applyFilter() {
     const input = document.getElementById("filter-input").value.trim();
     const [atom, b] = input.split(',').map(x => x.trim());
     const filtered = fullData.filter(row => {
-        if (!atom) return true;
-        if (b) return row.Atom === atom && row.B === b;
-        return row.Atom === atom;
+        if (!atom) return true; // No filter if input is empty
+        if (b) return row.Atom === atom && row.B === b; // Match Atom and B
+        return row.Atom === atom; // Match Atom only
     });
-    table.clear().rows.add(filtered).draw();
+    table.clear().rows.add(filtered).draw(); // Update the table with filtered data
 }
 
+// Function to display a popup with note details
 function showNotePopup(button, noteText) {
     // Remove any existing popup
     const existing = document.querySelector('.note-popup-floating');
     if (existing) existing.remove();
 
-    // Create new popup
+    // Create a new popup element
     const popup = document.createElement('div');
     popup.className = 'note-popup-floating';
     popup.textContent = noteText;
 
-    // Position it near the button
+    // Position the popup near the button
     const rect = button.getBoundingClientRect();
     popup.style.top = `${rect.bottom + window.scrollY + 5}px`;
     popup.style.left = `${rect.left + window.scrollX}px`;
 
     document.body.appendChild(popup);
 
-    // Close on outside click
+    // Close the popup on outside click
     document.addEventListener('click', function handler(e) {
         if (!popup.contains(e.target) && e.target !== button) {
             popup.remove();
@@ -81,8 +91,9 @@ function showNotePopup(button, noteText) {
         }
     });
 }
+
+// Function to copy the current table view as CSV to the clipboard
 function copyCSV() {
-    // Get full data objects from currently filtered rows
     const filteredData = table.rows({ search: 'applied' }).data().toArray();
 
     if (filteredData.length === 0) {
@@ -90,20 +101,20 @@ function copyCSV() {
         return;
     }
 
-    // Define all fields you want in the export
+    // Define the fields to include in the export
     const fields = [
         "Atom", "A", "B", "Value", "Uncertainty",
         "Method", "Year", "Citation", "Notes"
     ];
 
-    // Rebuild rows with full fields
+    // Rebuild rows with all fields
     const rows = filteredData.map(row => {
         const output = {};
         fields.forEach(field => output[field] = row[field] || "");
         return output;
     });
 
-    // Convert to CSV and copy
+    // Convert to CSV and copy to clipboard
     const csv = Papa.unparse(rows);
     navigator.clipboard.writeText(csv).then(() => {
         alert("Copied full table view (including hidden fields) to clipboard!");
@@ -123,28 +134,25 @@ $(document).ready(function () {
         if (!showExperiment && !showTheory) {
             // Automatically re-check the other checkbox
             if ($(this).attr('id') === 'experiment-checkbox') {
-                $('#theory-checkbox').prop('checked', true).trigger('change'); // Re-call the function
+                $('#theory-checkbox').prop('checked', true).trigger('change');
             } else {
-                $('#experiment-checkbox').prop('checked', true).trigger('change'); // Re-call the function
+                $('#experiment-checkbox').prop('checked', true).trigger('change');
             }
-            return; // Exit to avoid duplicate logic execution
+            return;
         }
 
-        // Determine the filter logic based on the checkbox states
+        // Apply filtering logic based on checkbox states
         if (showExperiment && showTheory) {
-            // Default behavior: no extra filter
-            table.column(5).search('').draw();
+            table.column(5).search('').draw(); // No filter
         } else if (!showExperiment && showTheory) {
-            // Hide rows with 'exp' in the "Method" column
-            table.column(5).search('^(?!.*exp).*$', true, false).draw();
+            table.column(5).search('^(?!.*exp).*$', true, false).draw(); // Exclude 'exp'
         } else if (showExperiment && !showTheory) {
-            // Hide rows without 'exp' in the "Method" column
-            table.column(5).search('exp', true, false).draw();
+            table.column(5).search('exp', true, false).draw(); // Include only 'exp'
         } else {
-            // Both unchecked: hide all rows (should not happen due to the above logic)
-            table.column(5).search('a^', true, false).draw(); // Regex that matches nothing
+            table.column(5).search('a^', true, false).draw(); // Match nothing
         }
     });
 });
 
+// Load the CSV data when the page is ready
 loadCSV();

@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "html.format.unformatted": null, // Allow formatting for all tags
+  "html.format.enable": true // Ensure formatting is enabled
+}
