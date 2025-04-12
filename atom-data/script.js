@@ -27,6 +27,11 @@ function loadCSV() {
                         },
                         orderable: false,
                         searchable: false
+                    },
+                    {
+                        data: "Citation",
+                        visible: false,     // hidden from view
+                        searchable: true    // included in search
                     }
                 ],
                 pageLength: 50,
