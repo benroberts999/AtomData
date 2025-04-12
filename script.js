@@ -152,6 +152,13 @@ $(document).ready(function () {
             table.column(5).search('a^', true, false).draw(); // Match nothing
         }
     });
+
+    // Trigger filter on Enter key press in the filter input field
+    $('#filter-input').on('keypress', function (e) {
+        if (e.key === 'Enter') {
+            applyFilter();
+        }
+    });
 });
 
 // Load the CSV data when the page is ready
