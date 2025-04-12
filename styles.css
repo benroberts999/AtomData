@@ -1,0 +1,22 @@
+/* ...existing code... */
+#atom-dropdown {
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  /* Ensure the cursor changes to a pointer (arrow) */
+  transition: background-color 0.2s ease, color 0.2s ease;
+  /* Smooth transition for hover effects */
+}
+
+.dropdown-item:hover {
+  background-color: #34aae0;
+  /* Light blue background to indicate hover */
+  color: #06090c;
+  /* Darker blue text color to indicate hover */
+}
+
+/* ...existing code... */

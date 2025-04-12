@@ -10,6 +10,7 @@
 
     <!-- Import DataTables CSS for table styling -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <style>
         /* General body styling for layout and appearance */
@@ -112,7 +113,12 @@
     <!-- Filter controls for the table -->
     <div class="filter-group">
         <!-- Input field for filtering table rows -->
-        <input type="text" id="filter-input" placeholder="e.g. Cs or Ba+" />
+        <div style="position: relative;">
+            <input id="filter-input" type="text" placeholder="Filter by Atom, B..." />
+            <div id="atom-dropdown" style="position: absolute; background: white; border: 1px solid #ccc; display: none; z-index: 1000; max-height: 200px; overflow-y: auto;">
+                <!-- Dropdown items will be dynamically added here -->
+            </div>
+        </div>
         <!-- Button to apply the filter -->
         <button onclick="applyFilter()">Filter</button>
         <!-- Button to copy the current table view as CSV -->

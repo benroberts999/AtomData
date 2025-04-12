@@ -11,6 +11,9 @@ function loadCSV() {
             // Store the parsed data
             fullData = results.data;
 
+            // Log unique atoms
+            getUniqueAtoms();
+
             // Initialize the DataTable with the parsed data
             table = $('#data-table').DataTable({
                 data: fullData,
@@ -51,6 +54,13 @@ function loadCSV() {
                 .css('width', '250px');
         }
     });
+}
+
+// Function to get a list of unique elements in the "Atom" column
+function getUniqueAtoms() {
+    const uniqueAtoms = [...new Set(fullData.map(row => row.Atom))];
+    console.log("Unique Atoms:", uniqueAtoms);
+    return uniqueAtoms;
 }
 
 // Function to apply a custom filter based on user input
@@ -124,6 +134,50 @@ function copyCSV() {
     });
 }
 
+// Function to create and display a dropdown with matching atoms
+function showAtomDropdown(inputValue) {
+    const dropdown = document.getElementById("atom-dropdown");
+    dropdown.innerHTML = ""; // Clear previous suggestions
+
+    // If the input is empty, hide the dropdown
+    if (!inputValue.trim()) {
+        dropdown.style.display = "none";
+        return;
+    }
+
+    // Filter the unique atoms to find matches based on the input
+    const matchingAtoms = getUniqueAtoms().filter(atom =>
+        atom.toLowerCase().includes(inputValue.toLowerCase())
+    );
+
+    // If no matches are found, hide the dropdown
+    if (matchingAtoms.length === 0) {
+        dropdown.style.display = "none";
+        return;
+    }
+
+    // Create a dropdown item for each matching atom
+    matchingAtoms.forEach(atom => {
+        const option = document.createElement("div");
+        option.className = "dropdown-item"; // Ensure the class is applied
+        option.textContent = atom; // Set the text to the atom name
+        option.onclick = () => {
+            // When an item is clicked, set the input value
+            document.getElementById("filter-input").value = atom;
+
+            // Apply the filter immediately
+            applyFilter();
+
+            // Hide the dropdown
+            dropdown.style.display = "none";
+        };
+        dropdown.appendChild(option); // Add the item to the dropdown
+    });
+
+    // Show the dropdown after populating it
+    dropdown.style.display = "block";
+}
+
 $(document).ready(function () {
     // Add event listeners for the Experiment and Theory checkboxes
     $('#experiment-checkbox, #theory-checkbox').on('change', function () {
@@ -157,6 +211,19 @@ $(document).ready(function () {
     $('#filter-input').on('keypress', function (e) {
         if (e.key === 'Enter') {
             applyFilter();
+        }
+    });
+
+    // Add input event listener to the filter textbox
+    $('#filter-input').on('input', function () {
+        const inputValue = $(this).val(); // Get the current input value
+        showAtomDropdown(inputValue); // Show the dropdown with matching atoms
+    });
+
+    // Hide the dropdown when clicking outside of the input or dropdown
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest('#filter-input, #atom-dropdown').length) {
+            $('#atom-dropdown').hide();
         }
     });
 });
