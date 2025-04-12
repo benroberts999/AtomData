@@ -37,7 +37,9 @@ function loadCSV() {
                 pageLength: 50,
                 lengthMenu: [[25, 50, 200, -1], [25, 50, 200, "All"]]
             });
-
+            $('#data-table_filter input')
+                .attr('placeholder', 'Author, Year, ...')
+                .css('width', '250px');
 
         }
     });
@@ -77,6 +79,37 @@ function showNotePopup(button, noteText) {
             popup.remove();
             document.removeEventListener('click', handler);
         }
+    });
+}
+function copyCSV() {
+    // Get full data objects from currently filtered rows
+    const filteredData = table.rows({ search: 'applied' }).data().toArray();
+
+    if (filteredData.length === 0) {
+        alert("No data to copy.");
+        return;
+    }
+
+    // Define all fields you want in the export
+    const fields = [
+        "Atom", "A", "B", "Value", "Uncertainty",
+        "Method", "Year", "Citation", "Notes"
+    ];
+
+    // Rebuild rows with full fields
+    const rows = filteredData.map(row => {
+        const output = {};
+        fields.forEach(field => output[field] = row[field] || "");
+        return output;
+    });
+
+    // Convert to CSV and copy
+    const csv = Papa.unparse(rows);
+    navigator.clipboard.writeText(csv).then(() => {
+        alert("Copied full table view (including hidden fields) to clipboard!");
+    }).catch(err => {
+        console.error("Clipboard copy failed:", err);
+        alert("Failed to copy.");
     });
 }
 
