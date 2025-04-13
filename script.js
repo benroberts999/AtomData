@@ -72,8 +72,8 @@ function loadCSV() {
                         searchable: true
                     }
                 ],
-                pageLength: 150, // Default number of rows per page
-                lengthMenu: [[50, 150, -1], [50, 150, "All"]] // Page length options
+                pageLength: 200, // Default number of rows per page
+                lengthMenu: [[50, 200, -1], [50, 200, "All"]] // Page length options
             });
 
             // Customize the search input placeholder
