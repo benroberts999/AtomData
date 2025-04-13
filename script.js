@@ -140,15 +140,18 @@ function toggleReferencePopup(button, referenceText) {
     const popup = document.createElement('div');
     popup.className = 'reference-popup';
 
+    // Split multiple references by ';' and format them
+    const references = referenceText.split(';').map(ref => `<div>${ref.trim()}</div>`).join('');
+
     // Format the links from the Links field
     const links = linksField.split(';').map(link => {
         const trimmedLink = link.trim();
         return `<a href="${trimmedLink}" target="_blank" rel="noopener noreferrer">${trimmedLink}</a>`;
     }).join('<br>');
 
-    // Add the reference text and links to the popup
+    // Add the references and links to the popup
     popup.innerHTML = `
-        <div>${referenceText}</div>
+        <div>${references}</div>
         ${links ? `<div style="margin-top: 10px;">${links}</div>` : ''}
     `;
 
