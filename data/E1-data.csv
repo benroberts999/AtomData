@@ -1,5 +1,6 @@
 Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
-37,Rb,Ratio^2,5s/p,1.99221,0.00003,,2015,10.1103/PhysRevA.92.052501,https://doi.org/10.1103/PhysRevA.92.052501,Square of ratio of reduced E1 matrix elements
+37,Rb,Ratio^2,|5s5p+/5s5p-|^2,1.99221,0.00003,Expt.,2015,"R. H. Leonard, A. J. Fallon, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2015)",https://doi.org/10.1103/PhysRevA.92.052501,Square of ratio of reduced E1 matrix elements
+37,Rb,Ratio^2,|5s5p+/5s5p-|^2,1.9917,,CCSDpTsc,2015,"R. H. Leonard, A. J. Fallon, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2015)",https://doi.org/10.1103/PhysRevA.92.052501,Square of ratio of reduced E1 matrix elements
 56,Ba+,6p-,5d-,3.03,0.09,Expt.,1993,"A. Kastberg, P. Villemoes, A. Arnesen, F. Heijkenskjöld, A. Langereis, P. Jungner, and S. Linnaeus, J. Opt. Soc. Am. B 10, 1330 (1993)",https://doi.org/10.1364/JOSAB.10.001330,
 56,Ba+,6p+,5d-,1.36,0.04,Expt.,1993,"A. Kastberg, P. Villemoes, A. Arnesen, F. Heijkenskjöld, A. Langereis, P. Jungner, and S. Linnaeus, J. Opt. Soc. Am. B 10, 1330 (1993)",https://doi.org/10.1364/JOSAB.10.001330,
 55,Cs,7p-,6s,0.2781,0.00045,Expt.,2019,"Amy Damitz, George Toh, Eric Putney, Carol E. Tanner, and D. S. Elliott, Phys. Rev. A 99, 062510 (2019)",https://doi.org/10.1103/PhysRevA.99.062510,
@@ -307,8 +308,10 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 19,K,4p-,3d-,7.9488,0.0076,CCSDpT,2021,"Parinaz Barakhshan, Adam Marrs, Bindiya Arora, Rudolf Eigenmann, Marianna S. Safronova, https://www.udel.edu/atom/ [January 2021].",https://www.udel.edu/atom/,
 19,K,4p+,3d-,3.565,0.0031,CCSDpT,2021,"Parinaz Barakhshan, Adam Marrs, Bindiya Arora, Rudolf Eigenmann, Marianna S. Safronova, https://www.udel.edu/atom/ [January 2021].",https://www.udel.edu/atom/,
 19,K,4p+,3d+,10.6949,0.0092,CCSDpT,2021,"Parinaz Barakhshan, Adam Marrs, Bindiya Arora, Rudolf Eigenmann, Marianna S. Safronova, https://www.udel.edu/atom/ [January 2021].",https://www.udel.edu/atom/,
-37,Rb,5p-,5s,4.233,0.002,Expt. (avg.),2015,"R. H. Leonard, A. J. Fallo1, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2017)",https://doi.org/10.1103/PhysRevA.92.052501,"Average of: Volz 96, Sims 98, Gutterres 2002"
-37,Rb,5p+,5s,5.978,0.004,Expt. (avg.),2015,"R. H. Leonard, A. J. Fallo1, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2017)",https://doi.org/10.1103/PhysRevA.92.052501,"Average of: Volz96, Sims 98, Gutterres 2002"
+37,Rb,5p-,5s,4.233,0.002,Expt. (avg.),2015,"R. H. Leonard, A. J. Fallo, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2015); U. Volz and H. Schmoranzer, Physica Scripta T65, 48 (1996); J. E. Simsarian, L. A. Orozco, G. D. Sprouse, and W. Z. Zhao, Phys. Rev. A 57, 2448 (1998); R. F. Gutterres, C. Amiot, A. Fioretti, C. Gabbanini, M. Mazzoni, and O. Dulieu, Phys. Rev. A 66, 024502 (2002)",https://doi.org/10.1103/PhysRevA.92.052501; https://iopscience.iop.org/article/10.1088/0031-8949/1996/T65/007; http://dx.doi.org/10.1103/PhysRevA.57.2448; http://dx.doi.org/10.1103/PhysRevA.66.024502,"Average of: Volz 96, Sims 98, Gutterres 2002"
+37,Rb,5p+,5s,5.978,0.004,Expt. (avg.),2015,"R. H. Leonard, A. J. Fallo, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2015); U. Volz and H. Schmoranzer, Physica Scripta T65, 48 (1996); J. E. Simsarian, L. A. Orozco, G. D. Sprouse, and W. Z. Zhao, Phys. Rev. A 57, 2448 (1998); R. F. Gutterres, C. Amiot, A. Fioretti, C. Gabbanini, M. Mazzoni, and O. Dulieu, Phys. Rev. A 66, 024502 (2002)",https://doi.org/10.1103/PhysRevA.92.052501; https://iopscience.iop.org/article/10.1088/0031-8949/1996/T65/007; http://dx.doi.org/10.1103/PhysRevA.57.2448; http://dx.doi.org/10.1103/PhysRevA.66.024502,"Average of: Volz96, Sims 98, Gutterres 2002"
+37,Rb,5p-,5s,4.2498,,CCSDpTsc,2015,"R. H. Leonard, A. J. Fallo, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2015)",https://doi.org/10.1103/PhysRevA.92.052501,
+37,Rb,5p+,5s,5.9976,,CCSDpTsc,2015,"R. H. Leonard, A. J. Fallo, C. A. Sackett, and M. S. Safronova, Phys. Rev. A 92, 052501 (2015)",https://doi.org/10.1103/PhysRevA.92.052501,
 55,Cs,6p-,6s,4.489,0.0065,Expt.,1999,"R. J. Rafac, C. E. Tanner, A. E. Livingston, H. G. Berry, Phys. Rev. A 60, 3648 (1999)",https://doi.org/10.1103/PhysRevA.60.3648,
 55,Cs,6p-,6s,4.4978,0.0061,Expt.,1994,"R. J. Rafac, C. E. Tanner, A. E. Livingston, K. W. Kukla, H. G. Berry, and C. A. Kurtz, Phys. Rev. A 50, R1976 (1994)",https://doi.org/10.1103/PhysRevA.50.R1976,
 88,Ra+,7p-,7s,3.254,,CCSDpT,2009,"R. Pal, D. Jiang, M. S. Safronova, and U. I. Safronova, Phys. Rev. A 79, 062505 (2009)",https://doi.org/10.1103/PhysRevA.79.062505,
@@ -333,8 +336,8 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 56,Ba+,6p+,5d+,4.047,,CCSDvT+sc.,2021,"S. G. Porsev and M. S. Safronova, Phys. Rev. A 103, 042815 (2021)",https://doi.org/10.1103/PhysRevA.103.042815,
 55,Cs,6p-,6s,4.5093,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82, 036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
 55,Cs,6p-,7s,4.245,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82, 036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
-55,Cs,7p-,6s,0.2769,,CCSDvT+sc.QED+Breit,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82, 036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
-55,Cs,7p-,7s,10.307,,CCSDvT+sc.QED+Breit,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82, 036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
+55,Cs,7p-,6s,0.2769,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82, 036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
+55,Cs,7p-,7s,10.307,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82, 036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
 70,Yb+,5d-,6p-,3.06,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d-,6p+,1.35,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d-,6p-,2.98,,CCSD,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,

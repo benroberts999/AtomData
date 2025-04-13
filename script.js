@@ -4,7 +4,7 @@ let fullData = [];
 
 // Function to load and parse the CSV file
 function loadCSV() {
-    Papa.parse("data/Data-table.csv", {
+    Papa.parse("data/E1-Data.csv", { // Updated file path
         download: true,
         header: true,
         complete: function (results) {
@@ -75,7 +75,7 @@ function loadCSV() {
 
             // Customize the search input placeholder
             $('#data-table_filter input')
-                .attr('placeholder', 'Author, Year, ...')
+                .attr('placeholder', 'Author, Year, State, ...')
                 .css('width', '250px');
         }
     });
@@ -142,11 +142,8 @@ function copyCSV() {
         return;
     }
 
-    // Define the fields to include in the export
-    const fields = [
-        "Atom", "A", "B", "Value", "Uncertainty",
-        "Method", "Year", "Citation", "Notes"
-    ];
+    // Dynamically get all fields from the first row of the dataset
+    const fields = Object.keys(fullData[0] || {});
 
     // Rebuild rows with all fields
     const rows = filteredData.map(row => {
