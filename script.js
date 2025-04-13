@@ -41,11 +41,10 @@ function loadCSV() {
                             surname = words.length > 0 ? words[words.length - 1] : '';
 
                             return `
-                                <span class="reference-text" 
-                                      onmouseover="showNotePopup(this, \`${citation.replace(/`/g, "\\`")}\`)" 
-                                      onmouseout="hideNotePopup()">
-                                    ${surname} <i>et al.</i>
-                                </span>
+                                <div class="reference-wrapper">
+                                    <span class="reference-text">${surname} <i>et al.</i></span>
+                                    <button class="reference-button" onclick="toggleReferencePopup(this, \`${citation.replace(/`/g, "\\`")}\`)">📖</button>
+                                </div>
                             `;
                         }
                     },
@@ -126,6 +125,40 @@ function showNotePopup(button, noteText) {
         }
     });
 }
+
+// Function to toggle the reference popup
+function toggleReferencePopup(button, referenceText) {
+    // Remove any existing popup
+    const existing = document.querySelector('.reference-popup');
+    if (existing) existing.remove();
+
+    // Create a new popup element
+    const popup = document.createElement('div');
+    popup.className = 'reference-popup';
+    popup.textContent = referenceText;
+
+    // Position the popup near the button
+    const rect = button.getBoundingClientRect();
+    popup.style.top = `${rect.bottom + window.scrollY + 5}px`;
+    popup.style.left = `${rect.left + window.scrollX}px`;
+
+    document.body.appendChild(popup);
+
+    // Close the popup on outside click
+    document.addEventListener('click', function handler(e) {
+        if (!popup.contains(e.target) && e.target !== button) {
+            popup.remove();
+            document.removeEventListener('click', handler);
+        }
+    });
+}
+
+// Add an event listener to close popups on 'Escape' key press
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+        document.querySelectorAll('.note-popup-floating, .reference-popup').forEach(popup => popup.remove());
+    }
+});
 
 // Function to hide the popup
 function hideNotePopup() {
