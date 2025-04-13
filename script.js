@@ -8,7 +8,7 @@ function loadCSV() {
         ? "/AtomData/"
         : "/";
 
-    Papa.parse(`${basePath}data/E1-Data.csv`, {
+    Papa.parse(`${basePath}data/E1-data.csv`, {
         download: true,
         header: true,
         complete: function (results) {
