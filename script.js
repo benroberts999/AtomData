@@ -4,7 +4,10 @@ let fullData = [];
 
 // Function to load and parse the CSV file
 function loadCSV() {
-    Papa.parse("data/E1-Data.csv", { // Updated file path
+    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    const csvPath = isLocal ? "data/E1-Data.csv" : "https://broberts.io/AtomData/data/E1-Data.csv";
+
+    Papa.parse(csvPath, { // Updated file path
         download: true,
         header: true,
         complete: function (results) {
