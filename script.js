@@ -132,10 +132,25 @@ function toggleReferencePopup(button, referenceText) {
     const existing = document.querySelector('.reference-popup');
     if (existing) existing.remove();
 
+    // Get the row data from the DataTable
+    const rowData = table.row($(button).closest('tr')).data();
+    const linksField = rowData.Links || ''; // Get the Links field
+
     // Create a new popup element
     const popup = document.createElement('div');
     popup.className = 'reference-popup';
-    popup.textContent = referenceText;
+
+    // Format the links from the Links field
+    const links = linksField.split(';').map(link => {
+        const trimmedLink = link.trim();
+        return `<a href="${trimmedLink}" target="_blank" rel="noopener noreferrer">${trimmedLink}</a>`;
+    }).join('<br>');
+
+    // Add the reference text and links to the popup
+    popup.innerHTML = `
+        <div>${referenceText}</div>
+        ${links ? `<div style="margin-top: 10px;">${links}</div>` : ''}
+    `;
 
     // Position the popup near the button
     const rect = button.getBoundingClientRect();
