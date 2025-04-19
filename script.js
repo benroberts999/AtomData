@@ -1,14 +1,15 @@
 // Global variables for the DataTable instance and the full dataset
 let table;
 let fullData = [];
+let currentFile = "E1-data.csv"; // Default file
 
 // Function to load and parse the CSV file
-function loadCSV() {
+function loadCSV(fileName = currentFile) {
     const basePath = window.location.pathname.includes("/AtomData/")
         ? "/AtomData/"
         : "/";
 
-    Papa.parse(`${basePath}data/E1-data.csv`, {
+    Papa.parse(`${basePath}data/${fileName}`, {
         download: true,
         header: true,
         complete: function (results) {
@@ -18,68 +19,67 @@ function loadCSV() {
             // Log unique atoms
             getUniqueAtoms();
 
-            // Initialize the DataTable with the parsed data
-            table = $('#data-table').DataTable({
-                data: fullData,
-                columns: [
-                    { data: "Atom" },
-                    { data: "A" },
-                    { data: "B" },
-                    { data: "Value" },
-                    { data: "Uncertainty" },
-                    { data: "Method" },
-                    {
-                        data: "Reference", // Add Reference column
-                        render: function (data, type, row) {
-                            if (!row.Citation) return '';
-                            let citation = row.Citation;
+            // Initialize or update the DataTable with the parsed data
+            if (table) {
+                table.clear().rows.add(fullData).draw(); // Update existing table
+            } else {
+                table = $('#data-table').DataTable({
+                    data: fullData,
+                    columns: [
+                        { data: "Atom" },
+                        { data: "A" },
+                        { data: "B" },
+                        { data: "Value" },
+                        { data: "Uncertainty" },
+                        { data: "Method" },
+                        {
+                            data: "Reference",
+                            render: function (data, type, row) {
+                                if (!row.Citation) return '';
+                                let citation = row.Citation;
 
-                            // Handle cases where there's no comma or "and"
-                            let surname = citation.split(',')[0].trim();
-                            if (!citation.includes(',')) {
-                                surname = citation.split('and')[0].trim();
+                                let surname = citation.split(',')[0].trim();
+                                if (!citation.includes(',')) {
+                                    surname = citation.split('and')[0].trim();
+                                }
+
+                                const words = surname.split(' ').filter(word => word.length > 1 || !word.endsWith('.'));
+                                surname = words.length > 0 ? words[words.length - 1] : '';
+
+                                return `
+                                    <div class="reference-wrapper">
+                                        <span class="reference-text">${surname} <i>et al.</i></span>
+                                        <button class="reference-button" onclick="toggleReferencePopup(this, \`${citation.replace(/`/g, "\\`")}\`)">📖</button>
+                                    </div>
+                                `;
                             }
-
-                            // Extract the last full word (longer than an initial)
-                            const words = surname.split(' ').filter(word => word.length > 1 || !word.endsWith('.'));
-                            surname = words.length > 0 ? words[words.length - 1] : '';
-
-                            return `
-                                <div class="reference-wrapper">
-                                    <span class="reference-text">${surname} <i>et al.</i></span>
-                                    <button class="reference-button" onclick="toggleReferencePopup(this, \`${citation.replace(/`/g, "\\`")}\`)">📖</button>
-                                </div>
-                            `;
-                        }
-                    },
-                    { data: "Year" }, // Move Year column here
-                    {
-                        // Render a button for notes if data exists
-                        data: "Notes",
-                        render: function (data, type, row) {
-                            if (!data) return '';
-                            return `
-                            <button class="note-button" onclick="showNotePopup(this, \`${data.replace(/`/g, "\\`")}\`)">📝</button>
-                          `;
                         },
-                        orderable: false, // Disable sorting for this column
-                        searchable: false // Exclude from search
-                    },
-                    {
-                        // Hidden column for citations, searchable but not visible
-                        data: "Citation",
-                        visible: false,
-                        searchable: true
-                    }
-                ],
-                pageLength: 200, // Default number of rows per page
-                lengthMenu: [[50, 200, -1], [50, 200, "All"]] // Page length options
-            });
+                        { data: "Year" },
+                        {
+                            data: "Notes",
+                            render: function (data, type, row) {
+                                if (!data) return '';
+                                return `
+                                <button class="note-button" onclick="showNotePopup(this, \`${data.replace(/`/g, "\\`")}\`)">📝</button>
+                              `;
+                            },
+                            orderable: false,
+                            searchable: false
+                        },
+                        {
+                            data: "Citation",
+                            visible: false,
+                            searchable: true
+                        }
+                    ],
+                    pageLength: 200,
+                    lengthMenu: [[50, 200, -1], [50, 200, "All"]]
+                });
 
-            // Customize the search input placeholder
-            $('#data-table_filter input')
-                .attr('placeholder', 'Author, Year, State, ...')
-                .css('width', '250px');
+                $('#data-table_filter input')
+                    .attr('placeholder', 'Author, Year, State, ...')
+                    .css('width', '250px');
+            }
         }
     });
 }
@@ -257,7 +257,36 @@ function showAtomDropdown(inputValue = "") {
     dropdown.style.display = "block";
 }
 
+// Function to handle dataset switching
+function switchDataset(fileName) {
+    currentFile = fileName;
+    loadCSV(fileName);
+}
+
 $(document).ready(function () {
+    // Populate the dropdown with dataset options
+    const datasetDropdown = $('#dataset-dropdown');
+    const datasets = [
+        { name: "E1 Data", file: "E1-data.csv" },
+        { name: "E2 Data", file: "E2-data.csv" },
+        { name: "M1 Data", file: "M1-data.csv" },
+        { name: "Lifetimes Data", file: "Lifetimes-data.csv" }
+    ];
+
+    datasets.forEach(dataset => {
+        const option = `<option value="${dataset.file}">${dataset.name}</option>`;
+        datasetDropdown.append(option);
+    });
+
+    // Add event listener for dataset selection
+    datasetDropdown.on('change', function () {
+        const selectedFile = $(this).val();
+        switchDataset(selectedFile);
+    });
+
+    // Load the default dataset
+    loadCSV();
+
     // Add event listeners for the Experiment, Theory, and Both radio buttons
     $('input[name="method-filter"]').on('change', function () {
         const selectedValue = $('input[name="method-filter"]:checked').val();
