@@ -23,11 +23,13 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 37,Rb,5p-,4d-,8.02,0.17,CCSDpT,2007,"B. Arora, M. S. Safronova, and C. W. Clark, Phys. Rev. A 76, 052516 (2007)",https://doi.org/10.1103/PhysRevA.76.052516,
 37,Rb,6p-,5s,0.325,0.009,CCSDpT,2012,"B. Arora, M. S. Safronova, and C. W. Clark, Phys. Rev. A 84, 043401 (2011); C. D. Herold, V. D. Vaidya, X. Li, S. L. Rolston, J. V. Porto, and M. S. Safronova, Phys. Rev. Lett. 109, 243003 (2012)",https://doi.org/10.1103/PhysRevA.84.043401; https://link.aps.org/doi/10.1103/PhysRevLett.109.243003,Value from 2011 paper; uncertanty from 2012 paper
 37,Rb,6p+,5s,0.528,0.013,CCSDpT,2012,"B. Arora, M. S. Safronova, and C. W. Clark, Phys. Rev. A 84, 043401 (2011); C. D. Herold, V. D. Vaidya, X. Li, S. L. Rolston, J. V. Porto, and M. S. Safronova, Phys. Rev. Lett. 109, 243003 (2012)",https://doi.org/10.1103/PhysRevA.84.043401; https://link.aps.org/doi/10.1103/PhysRevLett.109.243003,Value from 2011 paper; uncertanty from 2012 paper
-70,Yb+,5d-,6p-,3.06,,,2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
-70,Yb+,5d-,6p+,1.35,,,2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
-70,Yb+,5d+,6p+,4.23,,,2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
-70,Yb+,6s,6p-,2.72,,,2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
-70,Yb+,6s,6p+,3.83,,,2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,6s,7p+,0.18,0.02,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,5d-,7p-,0.17,0.02,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,5d-,6p-,3.06,0.02,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,5d-,6p+,1.35,0.02,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,5d+,6p+,4.23,0.03,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,6s,6p-,2.72,0.01,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,6s,6p+,3.83,0.01,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
 87,Fr,7p-,6d-,7.43,0.05,CCSD(T),2015,"B. K. Sahoo and B. P. Das, Phys. Rev. A 92,052511 (2015)",https://doi.org/10.1103/PhysRevA.92.052511,
 87,Fr,7p+,6d-,3.42,0.02,CCSD(T),2015,"B. K. Sahoo and B. P. Das, Phys. Rev. A 92,052511 (2015)",https://doi.org/10.1103/PhysRevA.92.052511,
 87,Fr,7p+,6d+,10.51,0.07,CCSD(T),2015,"B. K. Sahoo and B. P. Das, Phys. Rev. A 92,052511 (2015)",https://doi.org/10.1103/PhysRevA.92.052511,
@@ -316,16 +318,16 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 55,Cs,6p-,7s,4.245,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82,036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
 55,Cs,7p-,6s,0.2769,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82,036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
 55,Cs,7p-,7s,10.307,,CCSDvT+sc.,2010,"S. G. Porsev, K. Beloy, and A. Derevianko, Phys. Rev. D 82,036008 (2010)",https://doi.org/10.1103/PhysRevD.82.036008,
-70,Yb+,5d-,6p-,3.06,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
-70,Yb+,5d-,6p+,1.35,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
+70,Yb+,5d-,6p-,3.06,,MBPT(3),2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
+70,Yb+,5d-,6p+,1.35,,MBPT(3),2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d-,6p-,2.98,,CCSD,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d-,6p+,1.32,,CCSD,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d-,6p-,2.53,,CI,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d-,6p+,1.05,,CI,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
-70,Yb+,5d+,6p+,4.23,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
+70,Yb+,5d+,6p+,4.23,,MBPT(3),2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,5d+,6p+,3.27,,CI,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
-70,Yb+,6s,6p-,2.75,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
-70,Yb+,6s,6p+,3.83,,MBPT(2)+SR,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
+70,Yb+,6s,6p-,2.75,,MBPT(3),2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
+70,Yb+,6s,6p+,3.83,,MBPT(3),2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,6s,6p-,2.64,,CCSD,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,6s,6p+,3.71,,CCSD,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
 70,Yb+,6s,6p-,2.51,,CI,2012,"S. G. Porsev, M. S. Safronova, and M. G. Kozlov, Phys. Rev. A 86, 022504 (2012)",https://doi.org/10.1103/PhysRevA.86.022504,
@@ -347,11 +349,11 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 37,Rb,6p+,5s,0.541,,CCSD,2020,"Simranpreet Kaur, Bindiya Arora, B. K. Sahoo, https://arxiv.org/abs/2012.07362 (withdrawn)",https://arxiv.org/abs/2012.07362,Paper withdrawn from the arXiv
 19,K,4p-,4s,4.106,0.002,Expt.,2006,"St. Falke, I. Sherstov, E. Tiemann, and Ch. Lisdat, J. Chem. Phys. 125, 224303 (2006)",https://doi.org/10.1063/1.2375120,
 19,K,4p+,4s,5.807,0.003,Expt.,2006,"St. Falke, I. Sherstov, E. Tiemann, and Ch. Lisdat, J. Chem. Phys. 125, 224303 (2006)",https://doi.org/10.1063/1.2375120,
-70,Yb+,5d-,6p-,2.97,,,2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
-70,Yb+,5d-,6p+,1.31,,,2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
-70,Yb+,5d+,6p+,4.12,,,2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
-70,Yb+,6s,6p-,2.68,,,2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
-70,Yb+,6s,6p+,3.77,,,2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
+70,Yb+,5d-,6p-,2.97,,MBPT(3),2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
+70,Yb+,5d-,6p+,1.31,,MBPT(3),2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
+70,Yb+,5d+,6p+,4.12,,MBPT(3),2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
+70,Yb+,6s,6p-,2.68,,MBPT(3),2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
+70,Yb+,6s,6p+,3.77,,MBPT(3),2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://doi.org/10.1103/PhysRevA.79.022512,
 38,Sr+,4d-,5p-,3.112,0.036,CCSDpT,2010,"U. I. Safronova, Phys. Rev. A 82,022504 (2010)",https://doi.org/10.1103/PhysRevA.82.022504,
 38,Sr+,4d-,5p+,1.382,0.036,CCSDpT,2010,"U. I. Safronova, Phys. Rev. A 82,022504 (2010)",https://doi.org/10.1103/PhysRevA.82.022504,
 38,Sr+,4d+,5p+,4.187,0.048,CCSDpT,2010,"U. I. Safronova, Phys. Rev. A 82,022504 (2010)",https://doi.org/10.1103/PhysRevA.82.022504,
@@ -570,90 +572,90 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 12,Mg+,6d-,5p-,2.583,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101462",https://doi.org/10.1016/j.adt.2020.101381,
 12,Mg+,6d-,5p+,1.164,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101463",https://doi.org/10.1016/j.adt.2020.101381,
 12,Mg+,6d-,5f-,3.588,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101464",https://doi.org/10.1016/j.adt.2020.101381,
-12,Mg+,3p-,3s,2.37,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,3p+,3s,3.35,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101382",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4s,3p-,1.694,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101383",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4s,3p+,2.4,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101384",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,3d+,3p+,5.58,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101385",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,3d-,3p-,4.159,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101386",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,3d-,3p+,1.86,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101387",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p-,3s,0.051,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101388",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p-,4s,5.311,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101389",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p-,3d-,4.633,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101390",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p+,3s,0.068,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101391",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p+,4s,7.509,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101392",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p+,3d+,6.208,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101393",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4p+,3d-,2.069,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101394",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5s,3p-,0.46,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101395",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5s,3p+,0.652,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101396",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5s,4p-,3.807,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101397",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5s,4p+,5.401,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101398",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4d+,3p+,0.862,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101399",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4d+,4p+,10.767,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101400",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4d-,3p-,0.646,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101401",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4d-,3p+,0.287,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101402",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4d-,4p-,8.012,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101403",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4d-,4p+,3.589,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101404",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4f-,3d+,2.019,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101405",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4f-,3d-,7.553,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101406",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4f-,4d+,3.323,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101407",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4f-,4d-,12.432,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101408",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4f+,3d+,9.027,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101409",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,4f+,4d+,14.859,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101410",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p-,3s,0.063,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101411",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p-,4s,0.085,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101412",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p-,3d-,0.435,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101413",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p-,5s,9.257,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101414",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p-,4d-,9.707,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101415",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,3s,0.087,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101416",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,4s,0.129,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101417",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,3d+,0.587,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101418",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,3d-,0.196,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101419",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,5s,13.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,4d+,13.008,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101421",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5p+,4d-,4.336,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101422",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6s,3p-,0.249,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101423",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6s,3p+,0.352,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101424",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6s,4p-,0.949,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101425",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6s,4p+,1.34,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101426",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6s,5p-,6.655,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101427",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6s,5p+,9.439,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101428",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d+,3p+,0.329,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101429",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d+,4p+,2.039,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101430",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d+,4f-,0.441,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101431",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d+,4f+,1.971,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101432",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d+,5p+,17.257,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101433",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,3p-,0.248,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101434",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,3p+,0.11,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101435",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,4p-,1.524,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101436",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,4p+,0.679,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101437",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,4f-,1.649,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101438",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,5p-,12.839,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101439",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5d-,5p+,5.752,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101440",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f-,3d+,0.687,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101441",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f-,3d-,2.57,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101442",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f-,4d+,2.687,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101443",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f-,4d-,10.053,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101444",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f-,5d+,6.26,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101445",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f-,5d-,23.446,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101446",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f+,3d+,3.07,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101447",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f+,4d+,12.016,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101448",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,5f+,5d+,28.023,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101449",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,3p+,0.175,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101450",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,4p+,0.901,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101451",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,4f-,0.147,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101452",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,4f+,0.658,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101453",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,5p+,3.459,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101454",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,5f-,0.959,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101455",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d+,5f+,4.288,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101456",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,3p-,0.132,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101457",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,3p+,0.058,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101458",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,4p-,0.675,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101459",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,4p+,0.3,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101460",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,4f-,0.551,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101461",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,5p-,2.583,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101462",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,5p+,1.15,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101463",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-12,Mg+,6d-,5f-,3.588,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101464",https://doi.org/10.1016/j.adt.2020.101381,Recommended
+12,Mg+,3p-,3s,2.37,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,3p+,3s,3.35,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101382",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4s,3p-,1.694,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101383",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4s,3p+,2.4,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101384",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,3d+,3p+,5.58,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101385",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,3d-,3p-,4.159,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101386",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,3d-,3p+,1.86,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101387",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p-,3s,0.051,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101388",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p-,4s,5.311,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101389",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p-,3d-,4.633,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101390",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p+,3s,0.068,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101391",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p+,4s,7.509,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101392",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p+,3d+,6.208,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101393",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4p+,3d-,2.069,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101394",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5s,3p-,0.46,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101395",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5s,3p+,0.652,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101396",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5s,4p-,3.807,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101397",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5s,4p+,5.401,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101398",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4d+,3p+,0.862,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101399",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4d+,4p+,10.767,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101400",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4d-,3p-,0.646,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101401",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4d-,3p+,0.287,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101402",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4d-,4p-,8.012,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101403",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4d-,4p+,3.589,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101404",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4f-,3d+,2.019,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101405",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4f-,3d-,7.553,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101406",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4f-,4d+,3.323,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101407",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4f-,4d-,12.432,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101408",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4f+,3d+,9.027,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101409",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,4f+,4d+,14.859,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101410",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p-,3s,0.063,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101411",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p-,4s,0.085,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101412",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p-,3d-,0.435,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101413",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p-,5s,9.257,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101414",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p-,4d-,9.707,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101415",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,3s,0.087,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101416",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,4s,0.129,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101417",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,3d+,0.587,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101418",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,3d-,0.196,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101419",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,5s,13.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,4d+,13.008,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101421",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5p+,4d-,4.336,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101422",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6s,3p-,0.249,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101423",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6s,3p+,0.352,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101424",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6s,4p-,0.949,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101425",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6s,4p+,1.34,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101426",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6s,5p-,6.655,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101427",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6s,5p+,9.439,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101428",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d+,3p+,0.329,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101429",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d+,4p+,2.039,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101430",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d+,4f-,0.441,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101431",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d+,4f+,1.971,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101432",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d+,5p+,17.257,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101433",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,3p-,0.248,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101434",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,3p+,0.11,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101435",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,4p-,1.524,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101436",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,4p+,0.679,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101437",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,4f-,1.649,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101438",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,5p-,12.839,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101439",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5d-,5p+,5.752,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101440",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f-,3d+,0.687,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101441",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f-,3d-,2.57,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101442",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f-,4d+,2.687,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101443",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f-,4d-,10.053,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101444",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f-,5d+,6.26,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101445",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f-,5d-,23.446,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101446",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f+,3d+,3.07,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101447",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f+,4d+,12.016,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101448",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,5f+,5d+,28.023,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101449",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,3p+,0.175,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101450",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,4p+,0.901,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101451",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,4f-,0.147,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101452",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,4f+,0.658,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101453",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,5p+,3.459,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101454",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,5f-,0.959,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101455",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d+,5f+,4.288,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101456",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,3p-,0.132,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101457",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,3p+,0.058,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101458",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,4p-,0.675,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101459",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,4p+,0.3,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101460",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,4f-,0.551,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101461",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,5p-,2.583,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101462",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,5p+,1.15,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101463",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+12,Mg+,6d-,5f-,3.588,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101464",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
 20,Ca+,4P1/2,4S1/2,2.907,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
 20,Ca+,4P1/2,3D3/2,2.45,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
 20,Ca+,4P3/2,4S1/2,4.112,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
@@ -738,90 +740,90 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 20,Ca+,6D5/2,6P3/2,15.278,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
 20,Ca+,6D5/2,5F5/2,4.475,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
 20,Ca+,6D5/2,5F7/2,20.013,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
-20,Ca+,4P1/2,4S1/2,2.89,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4P1/2,3D3/2,2.46,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4P3/2,4S1/2,4.09,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4P3/2,3D3/2,1.1,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4P3/2,3D5/2,3.3,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5S1/2,4P1/2,2.073,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5S1/2,4P3/2,2.96,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4D3/2,4P1/2,4.28,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4D3/2,4P3/2,1.93,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4D5/2,4P3/2,5.77,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P1/2,4S1/2,0.076,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P1/2,3D3/2,0.1,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P1/2,5S1/2,6.23,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P1/2,4D3/2,7.43,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P3/2,4S1/2,0.091,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P3/2,3D3/2,0.05,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P3/2,3D5/2,0.14,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P3/2,5S1/2,8.8,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P3/2,4D3/2,3.31,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5P3/2,4D5/2,9.96,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4F5/2,3D3/2,1.92,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4F5/2,3D5/2,0.516,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4F5/2,4D3/2,11.35,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4F5/2,4D5/2,3.03,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4F7/2,3D5/2,2.3,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,4F7/2,4D5/2,13.58,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6S1/2,4P1/2,0.582,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6S1/2,4P3/2,0.826,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6S1/2,5P1/2,4.356,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6S1/2,5P3/2,6.22,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D3/2,4P1/2,1.22,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D3/2,4P3/2,0.545,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D3/2,5P1/2,7.48,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D3/2,5P3/2,3.37,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D3/2,4F5/2,8.55,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D5/2,4P3/2,1.63,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D5/2,5P3/2,10.11,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D5/2,4F5/2,2.28,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5D5/2,4F7/2,10.21,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P1/2,4S1/2,0.085,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P1/2,3D3/2,0.061,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P1/2,5S1/2,0.082,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P1/2,4D3/2,0.039,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P1/2,6S1/2,10.49,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P1/2,5D3/2,13.83,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,4S1/2,0.112,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,3D3/2,0.028,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,3D5/2,0.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,5S1/2,0.147,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,4D3/2,0.022,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,4D5/2,0.06,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,6S1/2,14.82,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,5D3/2,6.17,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6P3/2,5D5/2,18.54,0.11,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F5/2,3D3/2,1.192,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F5/2,3D5/2,0.319,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F5/2,4D3/2,0.288,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F5/2,4D5/2,0.075,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F5/2,5D3/2,19.2,0.11,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F5/2,5D5/2,5.14,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F7/2,3D5/2,1.428,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F7/2,4D5/2,0.334,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,5F7/2,5D5/2,22.97,0.13,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,7S1/2,4P1/2,0.318,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,7S1/2,4P3/2,0.451,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,7S1/2,5P1/2,1.106,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,7S1/2,5P3/2,1.568,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,7S1/2,6P1/2,7.363,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,7S1/2,6P3/2,10.507,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,4P1/2,0.635,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,4P3/2,0.283,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,5P1/2,2.228,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,5P3/2,0.997,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,4F5/2,1.03,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,6P1/2,11.31,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,6P3/2,5.1,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D3/2,5F5/2,16.77,0.12,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,4P3/2,0.84,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,5P3/2,2.99,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,4F5/2,0.278,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,4F7/2,1.24,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,6P3/2,15.28,0.12,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,5F5/2,4.47,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-20,Ca+,6D5/2,5F7/2,20.02,0.15,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,Recommended
+20,Ca+,4P1/2,4S1/2,2.89,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4P1/2,3D3/2,2.46,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4P3/2,4S1/2,4.09,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4P3/2,3D3/2,1.1,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4P3/2,3D5/2,3.3,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5S1/2,4P1/2,2.073,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5S1/2,4P3/2,2.96,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4D3/2,4P1/2,4.28,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4D3/2,4P3/2,1.93,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4D5/2,4P3/2,5.77,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P1/2,4S1/2,0.076,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P1/2,3D3/2,0.1,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P1/2,5S1/2,6.23,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P1/2,4D3/2,7.43,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P3/2,4S1/2,0.091,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P3/2,3D3/2,0.05,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P3/2,3D5/2,0.14,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P3/2,5S1/2,8.8,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P3/2,4D3/2,3.31,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5P3/2,4D5/2,9.96,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4F5/2,3D3/2,1.92,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4F5/2,3D5/2,0.516,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4F5/2,4D3/2,11.35,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4F5/2,4D5/2,3.03,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4F7/2,3D5/2,2.3,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,4F7/2,4D5/2,13.58,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6S1/2,4P1/2,0.582,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6S1/2,4P3/2,0.826,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6S1/2,5P1/2,4.356,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6S1/2,5P3/2,6.22,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D3/2,4P1/2,1.22,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D3/2,4P3/2,0.545,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D3/2,5P1/2,7.48,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D3/2,5P3/2,3.37,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D3/2,4F5/2,8.55,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D5/2,4P3/2,1.63,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D5/2,5P3/2,10.11,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D5/2,4F5/2,2.28,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5D5/2,4F7/2,10.21,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P1/2,4S1/2,0.085,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P1/2,3D3/2,0.061,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P1/2,5S1/2,0.082,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P1/2,4D3/2,0.039,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P1/2,6S1/2,10.49,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P1/2,5D3/2,13.83,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,4S1/2,0.112,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,3D3/2,0.028,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,3D5/2,0.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,5S1/2,0.147,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,4D3/2,0.022,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,4D5/2,0.06,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,6S1/2,14.82,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,5D3/2,6.17,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6P3/2,5D5/2,18.54,0.11,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F5/2,3D3/2,1.192,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F5/2,3D5/2,0.319,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F5/2,4D3/2,0.288,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F5/2,4D5/2,0.075,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F5/2,5D3/2,19.2,0.11,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F5/2,5D5/2,5.14,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F7/2,3D5/2,1.428,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F7/2,4D5/2,0.334,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,5F7/2,5D5/2,22.97,0.13,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,7S1/2,4P1/2,0.318,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,7S1/2,4P3/2,0.451,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,7S1/2,5P1/2,1.106,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,7S1/2,5P3/2,1.568,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,7S1/2,6P1/2,7.363,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,7S1/2,6P3/2,10.507,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,4P1/2,0.635,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,4P3/2,0.283,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,5P1/2,2.228,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,5P3/2,0.997,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,4F5/2,1.03,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,6P1/2,11.31,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,6P3/2,5.1,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D3/2,5F5/2,16.77,0.12,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,4P3/2,0.84,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,5P3/2,2.99,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,4F5/2,0.278,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,4F7/2,1.24,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,6P3/2,15.28,0.12,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,5F5/2,4.47,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+20,Ca+,6D5/2,5F7/2,20.02,0.15,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
 38,Sr+,5P1/2,5S1/2,3.09,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 38,Sr+,5P1/2,4D3/2,3.102,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 38,Sr+,5P3/2,5S1/2,4.367,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
@@ -926,110 +928,110 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 38,Sr+,8P3/2,8S1/2,22.767,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 38,Sr+,8P3/2,7D3/2,10.674,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 38,Sr+,8P3/2,7D5/2,32.133,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
-38,Sr+,5P1/2,5S1/2,3.07,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5P1/2,4D3/2,3.11,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5P3/2,5S1/2,4.35,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5P3/2,4D3/2,1.38,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5P3/2,4D5/2,4.18,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6S1/2,5P1/2,2.33,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6S1/2,5P3/2,3.43,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5D3/2,5P1/2,4.26,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5D3/2,5P3/2,1.96,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5D5/2,5P3/2,5.86,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P1/2,5S1/2,0.025,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P1/2,4D3/2,0.07,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P1/2,6S1/2,6.53,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P1/2,5D3/2,8.55,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P3/2,5S1/2,0.034,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P3/2,4D3/2,0.051,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P3/2,4D5/2,0.14,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P3/2,6S1/2,9.18,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P3/2,5D3/2,3.79,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6P3/2,5D5/2,11.45,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,4F7/2,4D5/2,3.52,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,4F7/2,5D5/2,14.61,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,4F5/2,4D3/2,2.91,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,4F5/2,4D5/2,0.79,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,4F5/2,5D3/2,12.2,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,4F5/2,5D5/2,3.268,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7S1/2,5P1/2,0.64,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7S1/2,5P3/2,0.918,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7S1/2,6P1/2,4.772,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7S1/2,6P3/2,7.004,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D3/2,5P1/2,1.364,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D3/2,5P3/2,0.611,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D3/2,6P1/2,7.2,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D3/2,6P3/2,3.33,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D3/2,4F5/2,6.22,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D5/2,5P3/2,1.839,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D5/2,6P3/2,9.93,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D5/2,4F7/2,7.37,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,6D5/2,4F5/2,1.65,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P1/2,5S1/2,0.063,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P1/2,4D3/2,0.045,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P1/2,6S1/2,0.185,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P1/2,5D3/2,0.23,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P1/2,7S1/2,10.86,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P1/2,6D3/2,15.45,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,5S1/2,0.053,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,4D3/2,0.028,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,4D5/2,0.078,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,6S1/2,0.384,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,5D3/2,0.062,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,5D5/2,0.22,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,7S1/2,15.24,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,6D3/2,6.85,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7P3/2,6D5/2,20.66,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F5/2,4D3/2,1.65,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F5/2,4D5/2,0.445,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F5/2,5D3/2,2.01,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F5/2,5D5/2,0.55,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F5/2,6D3/2,21.76,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F5/2,6D5/2,5.83,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F7/2,4D5/2,1.99,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F7/2,5D5/2,2.48,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,5F7/2,6D5/2,26.07,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8S1/2,5P1/2,0.35,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8S1/2,5P3/2,0.497,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8S1/2,6P1/2,1.179,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8S1/2,6P3/2,1.677,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8S1/2,7P1/2,7.949,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8S1/2,7P3/2,11.638,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,5P1/2,0.746,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,5P3/2,0.331,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,6P1/2,2.365,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,6P3/2,1.065,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,4F5/2,1.24,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,7P1/2,10.61,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,7P3/2,4.92,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D3/2,5F5/2,12.15,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,5P3/2,0.999,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,6P3/2,3.197,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,4F7/2,1.481,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,4F5/2,0.331,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,7P3/2,14.65,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,5F5/2,3.22,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,7D5/2,5F7/2,14.4,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,5S1/2,0.054,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,4D3/2,0.031,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,6S1/2,0.005,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,5D3/2,0.091,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,7S1/2,0.41,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,6D3/2,0.72,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,8S1/2,16.23,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P1/2,7D3/2,24.02,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,5S1/2,0.054,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,4D3/2,0.019,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,4D5/2,0.053,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,6S1/2,0.07,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,5D3/2,0.024,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,5D5/2,0.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,7S1/2,0.74,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,6D3/2,0.25,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,6D5/2,0.82,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,8S1/2,22.77,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,7D3/2,10.678,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-38,Sr+,8P3/2,7D5/2,32.14,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
+38,Sr+,5P1/2,5S1/2,3.07,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5P1/2,4D3/2,3.11,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5P3/2,5S1/2,4.35,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5P3/2,4D3/2,1.38,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5P3/2,4D5/2,4.18,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6S1/2,5P1/2,2.33,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6S1/2,5P3/2,3.43,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5D3/2,5P1/2,4.26,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5D3/2,5P3/2,1.96,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5D5/2,5P3/2,5.86,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P1/2,5S1/2,0.025,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P1/2,4D3/2,0.07,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P1/2,6S1/2,6.53,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P1/2,5D3/2,8.55,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P3/2,5S1/2,0.034,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P3/2,4D3/2,0.051,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P3/2,4D5/2,0.14,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P3/2,6S1/2,9.18,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P3/2,5D3/2,3.79,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6P3/2,5D5/2,11.45,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,4F7/2,4D5/2,3.52,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,4F7/2,5D5/2,14.61,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,4F5/2,4D3/2,2.91,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,4F5/2,4D5/2,0.79,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,4F5/2,5D3/2,12.2,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,4F5/2,5D5/2,3.268,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7S1/2,5P1/2,0.64,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7S1/2,5P3/2,0.918,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7S1/2,6P1/2,4.772,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7S1/2,6P3/2,7.004,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D3/2,5P1/2,1.364,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D3/2,5P3/2,0.611,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D3/2,6P1/2,7.2,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D3/2,6P3/2,3.33,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D3/2,4F5/2,6.22,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D5/2,5P3/2,1.839,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D5/2,6P3/2,9.93,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D5/2,4F7/2,7.37,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,6D5/2,4F5/2,1.65,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P1/2,5S1/2,0.063,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P1/2,4D3/2,0.045,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P1/2,6S1/2,0.185,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P1/2,5D3/2,0.23,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P1/2,7S1/2,10.86,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P1/2,6D3/2,15.45,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,5S1/2,0.053,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,4D3/2,0.028,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,4D5/2,0.078,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,6S1/2,0.384,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,5D3/2,0.062,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,5D5/2,0.22,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,7S1/2,15.24,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,6D3/2,6.85,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7P3/2,6D5/2,20.66,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F5/2,4D3/2,1.65,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F5/2,4D5/2,0.445,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F5/2,5D3/2,2.01,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F5/2,5D5/2,0.55,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F5/2,6D3/2,21.76,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F5/2,6D5/2,5.83,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F7/2,4D5/2,1.99,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F7/2,5D5/2,2.48,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,5F7/2,6D5/2,26.07,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8S1/2,5P1/2,0.35,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8S1/2,5P3/2,0.497,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8S1/2,6P1/2,1.179,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8S1/2,6P3/2,1.677,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8S1/2,7P1/2,7.949,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8S1/2,7P3/2,11.638,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,5P1/2,0.746,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,5P3/2,0.331,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,6P1/2,2.365,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,6P3/2,1.065,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,4F5/2,1.24,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,7P1/2,10.61,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,7P3/2,4.92,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D3/2,5F5/2,12.15,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,5P3/2,0.999,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,6P3/2,3.197,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,4F7/2,1.481,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,4F5/2,0.331,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,7P3/2,14.65,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,5F5/2,3.22,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,7D5/2,5F7/2,14.4,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,5S1/2,0.054,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,4D3/2,0.031,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,6S1/2,0.005,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,5D3/2,0.091,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,7S1/2,0.41,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,6D3/2,0.72,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,8S1/2,16.23,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P1/2,7D3/2,24.02,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,5S1/2,0.054,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,4D3/2,0.019,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,4D5/2,0.053,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,6S1/2,0.07,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,5D3/2,0.024,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,5D5/2,0.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,7S1/2,0.74,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,6D3/2,0.25,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,6D5/2,0.82,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,8S1/2,22.77,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,7D3/2,10.678,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+38,Sr+,8P3/2,7D5/2,32.14,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
 56,Ba+,6P1/2,6S1/2,3.358,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 56,Ba+,6P1/2,5D3/2,3.066,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 56,Ba+,6P3/2,6S1/2,4.738,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
@@ -1090,66 +1092,66 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 56,Ba+,8D5/2,6P3/2,0.969,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 56,Ba+,8D5/2,7P3/2,3.34,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
 56,Ba+,8D5/2,8P3/2,17.238,,CCSDpTsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,
-56,Ba+,6P1/2,6S1/2,3.33,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6P1/2,5D3/2,3.07,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6P3/2,6S1/2,4.71,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6P3/2,5D3/2,1.34,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6P3/2,5D5/2,4.13,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7S1/2,6P1/2,2.47,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7S1/2,6P3/2,3.86,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6D3/2,6P1/2,4.84,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6D3/2,6P3/2,2.31,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,6D5/2,6P3/2,6.86,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P1/2,6S1/2,0.062,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P1/2,5D3/2,0.277,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P1/2,7S1/2,7.02,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P1/2,6D3/2,8.63,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P3/2,6S1/2,0.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P3/2,5D3/2,0.155,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P3/2,5D5/2,0.45,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P3/2,7S1/2,9.78,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P3/2,6D3/2,3.77,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7P3/2,6D5/2,11.48,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8S1/2,6P1/2,0.696,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8S1/2,6P3/2,1.016,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8S1/2,7P1/2,4.95,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8S1/2,7P3/2,7.64,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7D3/2,6P1/2,1.393,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7D3/2,6P3/2,0.614,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7D3/2,7P1/2,8.22,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7D3/2,7P3/2,3.93,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7D5/2,6P3/2,1.86,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,7D5/2,7P3/2,11.69,0.09,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P1/2,6S1/2,0.088,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P1/2,5D3/2,0.133,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P1/2,7S1/2,0.134,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P1/2,6D3/2,0.1,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P1/2,8S1/2,11.55,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P1/2,7D3/2,15.57,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,6S1/2,0.033,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,5D3/2,0.077,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,5D5/2,0.222,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,7S1/2,0.49,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,6D3/2,0.14,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,6D5/2,0.35,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,8S1/2,16.03,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,7D3/2,6.8,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8P3/2,7D5/2,20.66,0.11,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,9S1/2,6P1/2,0.381,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,9S1/2,6P3/2,0.548,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,9S1/2,7P1/2,1.255,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,9S1/2,7P3/2,1.801,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,9S1/2,8P1/2,8.15,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,9S1/2,8P3/2,12.51,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D3/2,6P1/2,0.74,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D3/2,6P3/2,0.317,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D3/2,7P1/2,2.46,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D3/2,7P3/2,1.102,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D3/2,8P1/2,12.1,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D3/2,8P3/2,5.85,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D5/2,6P3/2,0.973,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D5/2,7P3/2,3.32,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
-56,Ba+,8D5/2,8P3/2,17.13,0.13,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,Recommended
+56,Ba+,6P1/2,6S1/2,3.33,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6P1/2,5D3/2,3.07,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6P3/2,6S1/2,4.71,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6P3/2,5D3/2,1.34,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6P3/2,5D5/2,4.13,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7S1/2,6P1/2,2.47,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7S1/2,6P3/2,3.86,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6D3/2,6P1/2,4.84,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6D3/2,6P3/2,2.31,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,6D5/2,6P3/2,6.86,0.05,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P1/2,6S1/2,0.062,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P1/2,5D3/2,0.277,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P1/2,7S1/2,7.02,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P1/2,6D3/2,8.63,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P3/2,6S1/2,0.08,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P3/2,5D3/2,0.155,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P3/2,5D5/2,0.45,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P3/2,7S1/2,9.78,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P3/2,6D3/2,3.77,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7P3/2,6D5/2,11.48,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8S1/2,6P1/2,0.696,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8S1/2,6P3/2,1.016,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8S1/2,7P1/2,4.95,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8S1/2,7P3/2,7.64,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7D3/2,6P1/2,1.393,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7D3/2,6P3/2,0.614,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7D3/2,7P1/2,8.22,0.07,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7D3/2,7P3/2,3.93,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7D5/2,6P3/2,1.86,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,7D5/2,7P3/2,11.69,0.09,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P1/2,6S1/2,0.088,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P1/2,5D3/2,0.133,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P1/2,7S1/2,0.134,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P1/2,6D3/2,0.1,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P1/2,8S1/2,11.55,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P1/2,7D3/2,15.57,0.08,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,6S1/2,0.033,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,5D3/2,0.077,0.001,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,5D5/2,0.222,0.004,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,7S1/2,0.49,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,6D3/2,0.14,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,6D5/2,0.35,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,8S1/2,16.03,0.03,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,7D3/2,6.8,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8P3/2,7D5/2,20.66,0.11,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,9S1/2,6P1/2,0.381,0.002,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,9S1/2,6P3/2,0.548,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,9S1/2,7P1/2,1.255,0.005,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,9S1/2,7P3/2,1.801,0.008,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,9S1/2,8P1/2,8.15,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,9S1/2,8P3/2,12.51,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D3/2,6P1/2,0.74,0.007,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D3/2,6P3/2,0.317,0.003,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D3/2,7P1/2,2.46,0.01,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D3/2,7P3/2,1.102,0.006,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D3/2,8P1/2,12.1,0.06,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D3/2,8P3/2,5.85,0.04,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D5/2,6P3/2,0.973,0.009,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D5/2,7P3/2,3.32,0.02,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
+56,Ba+,8D5/2,8P3/2,17.13,0.13,CCSDsc,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101420",https://doi.org/10.1016/j.adt.2020.101381,"Makred 'Recommended' in paper"
 56,Ba+,6p1/2,6s1/2,3.36,0.01,CCSD(T),2009,"B. K. Sahoo, L. W. Wansbeek, K. Jungmann, and R. G. E. Timmermans, Phys. Rev. A. 79, 052512 (2009)",https://doi.org/10.1103/PhysRevA.79.052512,
 56,Ba+,7p1/2,6s1/2,0.1,0.01,CCSD(T),2009,"B. K. Sahoo, L. W. Wansbeek, K. Jungmann, and R. G. E. Timmermans, Phys. Rev. A. 79, 052512 (2009)",https://doi.org/10.1103/PhysRevA.79.052512,
 56,Ba+,8p1/2,6s1/2,0.11,0.05,CCSD(T),2009,"B. K. Sahoo, L. W. Wansbeek, K. Jungmann, and R. G. E. Timmermans, Phys. Rev. A. 79, 052512 (2009)",https://doi.org/10.1103/PhysRevA.79.052512,

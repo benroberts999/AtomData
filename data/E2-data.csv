@@ -8,3 +8,5 @@ Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
 56,Ba+,5D3/2,6S1/2,12.49,0.11,CCSD,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
 56,Ba+,5D5/2,6S1/2,15.65,0.14,CCSD,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
 56,Ba+,5D5/2,5D3/2,6.65,0.06,CCSD,2021,"M. Kaur, D. F. Dar, B. K. Sahoo, B. Arora, At. Data Nuc. Data Tab. 137 (2021) 101381",https://doi.org/10.1016/j.adt.2020.101381,
+70,Yb+,6s,5d-,10.2,0.5,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
+70,Yb+,6s,5d+,12.9,0.7,CCSD(T),2011,"B. K. Sahoo and B. P. Das, Phys. Rev. A 84, 010502(R) (2011)",https://doi.org/10.1103/PhysRevA.84.010502,
