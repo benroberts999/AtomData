@@ -258,31 +258,17 @@ function showAtomDropdown(inputValue = "") {
 }
 
 $(document).ready(function () {
-    // Add event listeners for the Experiment and Theory checkboxes
-    $('#experiment-checkbox, #theory-checkbox').on('change', function () {
-        const showExperiment = $('#experiment-checkbox').is(':checked');
-        const showTheory = $('#theory-checkbox').is(':checked');
+    // Add event listeners for the Experiment, Theory, and Both radio buttons
+    $('input[name="method-filter"]').on('change', function () {
+        const selectedValue = $('input[name="method-filter"]:checked').val();
 
-        // Ensure at least one checkbox is always checked
-        if (!showExperiment && !showTheory) {
-            // Automatically re-check the other checkbox
-            if ($(this).attr('id') === 'experiment-checkbox') {
-                $('#theory-checkbox').prop('checked', true).trigger('change');
-            } else {
-                $('#experiment-checkbox').prop('checked', true).trigger('change');
-            }
-            return;
-        }
-
-        // Apply filtering logic based on checkbox states
-        if (showExperiment && showTheory) {
+        // Apply filtering logic based on the selected radio button
+        if (selectedValue === 'both') {
             table.column(5).search('').draw(); // No filter
-        } else if (!showExperiment && showTheory) {
+        } else if (selectedValue === 'theory') {
             table.column(5).search('^(?!.*exp).*$', true, false).draw(); // Exclude 'exp'
-        } else if (showExperiment && !showTheory) {
+        } else if (selectedValue === 'experiment') {
             table.column(5).search('exp', true, false).draw(); // Include only 'exp'
-        } else {
-            table.column(5).search('a^', true, false).draw(); // Match nothing
         }
     });
 

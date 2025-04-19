@@ -53,4 +53,14 @@
   white-space: normal;
 }
 
-/* ...existing code... */
+.filter-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filter-group input[type="radio"] {
+  margin: 0;
+}
