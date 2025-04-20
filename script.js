@@ -267,10 +267,11 @@ $(document).ready(function () {
     // Populate the dropdown with dataset options
     const datasetDropdown = $('#dataset-dropdown');
     const datasets = [
-        { name: "E1 Data", file: "E1-data.csv" },
-        { name: "E2 Data", file: "E2-data.csv" },
-        { name: "M1 Data", file: "M1-data.csv" },
-        { name: "Lifetimes Data", file: "Lifetimes-data.csv" }
+        { name: "E1", file: "E1-data.csv" },
+        { name: "E2", file: "E2-data.csv" },
+        { name: "M1", file: "M1-data.csv" },
+        { name: "Lifetimes (ns)", file: "Lifetimes-data.csv" },
+        { name: "Polarisabilities", file: "Polarisability-data.csv" }
     ];
 
     datasets.forEach(dataset => {

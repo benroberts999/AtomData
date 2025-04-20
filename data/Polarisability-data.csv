@@ -1,0 +1,82 @@
+Z,Atom,A,B,Value,Uncertainty,Method,Year,Citation,Links,Notes
+55,Cs,6p1/2,6s1/2,936,,CCSDpT + Expt,2004,"Safronova and Clark, Phys. Rev. A 69, 040501(R) (2004)",https://doi.org/10.1103/PhysRevA.69.040501,Differential
+55,Cs,6p1/2,6s1/2,927.35,0.12,Expt,1992,"L. R. Hunter and others, Opt. Commun. 94, 210 (1992)",,Differential
+55,Cs,6p1/2,,1404,24,CCSDpT + Expt,2004,"Safronova and Clark, Phys. Rev. A 69, 040501(R) (2004)",https://doi.org/10.1103/PhysRevA.69.040501,
+55,Cs,6p3/2,6s1/2,1248,,CCSDpT + Expt,2004,"Safronova and Clark, Phys. Rev. A 69, 040501(R) (2004)",https://doi.org/10.1103/PhysRevA.69.040501,Differential
+55,Cs,6p3/2,6s1/2,1240.2,2.4,Expt,1988,"C. E. Tanner and C. Wieman, Phys. Rev. A 38, 162 (1988).",,Differential
+55,Cs,6p3/2,,1720,18,CCSDpT + Expt,2004,"Safronova and Clark, Phys. Rev. A 69, 040501(R) (2004)",https://doi.org/10.1103/PhysRevA.69.040501,
+55,Cs,6s1/2,7s,5837,6,Expt,1999,"Bennett, Roberts and Wieman, Phys. Rev. A 59 R16",,Differential
+55,Cs,6s1/2,7s,5709,19,Expt,1983,"Watts R N, Gilbert S L and Wieman C E 1983 Phys. Rev. A 27 2769",,Differential
+55,Cs,6s1/2,,398.2,0.9,CCSDpT + Expt,2004,"Safronova and Clark, Phys. Rev. A 69, 040501(R) (2004)",https://doi.org/10.1103/PhysRevA.69.040501,
+55,Cs,6s1/2,,396.02,,RCCSDT,2005,"Lim, Schwerdtfeger, Metz and Stoll, J. Chem. Phys. 122 104103",,
+55,Cs,6s1/2,,398.4,0.7,RLCCSDT,2007,"Iskrenova-Tchoukova, Safronova and Safronova, J. Comput. Methods Sci. Eng. 7 521",,
+55,Cs,6s1/2,,401,0.6,Expt,2003,"J. M. Amini and H. Gould, Phys. Rev. Lett. 91, 153001 (2003)",,
+55,Cs,7p1/2,,29.6,0.6,Expt,1983,"Domelunksen V, Opt. Spectrosk. 54 565 (1983)",,
+55,Cs,7p3/2,,37.9,0.8,Expt,1968,Khvostenko G and Chaika M 1968 Opt. Spectrosk. 25 246,,
+70,Yb+,6s,,62.04,,RMBPTb,2009,"U. I. Safronova and M. S. Safronova, Phys. Rev. A 79, 022512 (2009)",https://dx.doi.org/10.1103/PhysRevA.79.022512,
+55,Cs,7s1/2,,6.237,0.042,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,8s1/2,,38.27,0.26,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,9s1/2,,153.7,1,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,10s1/2,,477.5,3.3,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,11s1/2,,1246,4,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,12s1/2,,2868,21,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,13s1/2,,5817,14,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,6p1/2,,1.339,0.043,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,7p1/2,,29.88,0.16,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,8p1/2,,223.3,1.4,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,9p1/2,,1021.4,5.6,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,10p1/2,,3500,14,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,11p1/2,,9892,37,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,12p1/2,,24310,100,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,6p3/2,,1.651,0.046,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,7p3/2,,37.51,0.17,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,8p3/2,,284.5,1.7,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,9p3/2,,1312.9,7,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,10p3/2,,4525,20,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,11p3/2,,12836,44,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,12p3/2,,31630,96,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,5d3/2,,-0.335,0.038,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,6d3/2,,-5.68,0.12,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,7d3/2,,-66.79,1,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,8d3/2,,-369.3,5.8,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,9d3/2,,-1405,20,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,10d3/2,,-4242,60,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,11d3/2,,-10926,149,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,12d3/2,,-25092,783,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,5d5/2,,-0.439,0.042,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,6d5/2,,-8.38,0.13,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,7d5/2,,-88.9,1.3,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,8d5/2,,-475.8,6.3,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,9d5/2,,-1781,22,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,10d5/2,,-5324,59,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,11d5/2,,-13615,136,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,12d5/2,,-31487,802,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,
+55,Cs,6p3/2,a2,-0.26,0.011,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,7p3/2,a2,-4.408,0.05,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,8p3/2,a2,-30.57,0.41,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,9p3/2,a2,-134.7,1.7,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,10p3/2,a2,-451.1,4.8,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,11p3/2,a2,-1254,11,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,12p3/2,a2,-3041,24,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,5d3/2,a2,0.357,0.025,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,6d3/2,a2,8.749,0.078,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,7d3/2,a2,71.08,0.75,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,8d3/2,a2,338.6,3.1,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,9d3/2,a2,1190,8,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,10d3/2,a2,3419,22,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,11d3/2,a2,8511,54,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,12d3/2,a2,18734,158,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,5d5/2,a2,0.677,0.034,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,6d5/2,a2,17.3,0.11,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,7d5/2,a2,141.7,1.1,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,8d5/2,a2,678.1,4.9,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,9d5/2,a2,2388,14,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,10d5/2,a2,6871,35,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,11d5/2,a2,17111,69,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,12d5/2,a2,38424,291,CCSDpT,2016,"M. S. Safronova, U. I. Safronova, and C. W. Clark, Phys. Rev. A 94, 012505 (2016)",https://doi.org/10.1103/PhysRevA.94.012505,"Tensor"
+55,Cs,6s1/2,,401.2,0.7,Expt,2015,"M. D. Gregoire, I. Hromada, W. F. Holmgren, R. Trubko, and A. D. Cronin, Phys. Rev. A 92, 052513 (2015)","https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.052513",
+37,Rb,5s1/2,,320.1,0.6,Expt,2015,"M. D. Gregoire, I. Hromada, W. F. Holmgren, R. Trubko, and A. D. Cronin, Phys. Rev. A 92, 052513 (2015)","https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.052513",
+19,K,4s1/2,,290.0,0.5,Expt,2015,"M. D. Gregoire, I. Hromada, W. F. Holmgren, R. Trubko, and A. D. Cronin, Phys. Rev. A 92, 052513 (2015)","https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.052513",
+55/37,Cs/Rb,6s/5s,,1.2532,0.0010,Expt,2015,"M. D. Gregoire, I. Hromada, W. F. Holmgren, R. Trubko, and A. D. Cronin, Phys. Rev. A 92, 052513 (2015)","https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.052513",Ratio
+55/19,Cs/K,6s/4s,,1.3834,0.0009,Expt,2015,"M. D. Gregoire, I. Hromada, W. F. Holmgren, R. Trubko, and A. D. Cronin, Phys. Rev. A 92, 052513 (2015)","https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.052513",Ratio
+37/19,Rb/K,5s/4s,,1.1040,0.0009,Expt,2015,"M. D. Gregoire, I. Hromada, W. F. Holmgren, R. Trubko, and A. D. Cronin, Phys. Rev. A 92, 052513 (2015)","https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.052513",Ratio
