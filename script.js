@@ -93,12 +93,13 @@ function getUniqueAtoms() {
 
 // Function to apply a custom filter based on user input
 function applyFilter() {
-    const input = document.getElementById("filter-input").value.trim();
+    const input = document.getElementById("filter-input").value.trim().toLowerCase();
     const [atom, b] = input.split(',').map(x => x.trim());
     const filtered = fullData.filter(row => {
         if (!atom) return true; // No filter if input is empty
-        if (b) return row.Atom === atom && row.B === b; // Match Atom and B
-        return row.Atom === atom; // Match Atom only
+        const atomMatches = row.Atom.toLowerCase().includes(atom); // Partial match for Atom
+        if (b) return atomMatches && row.B === b; // Match Atom and B
+        return atomMatches; // Match Atom only
     });
     table.clear().rows.add(filtered).draw(); // Update the table with filtered data
 }
