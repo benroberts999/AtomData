@@ -16,6 +16,9 @@ function loadCSV(fileName = currentFile) {
             // Store the parsed data
             fullData = results.data;
 
+            // Log the parsed data for debugging
+            console.log("Parsed Data:", fullData);
+
             // Log unique atoms
             getUniqueAtoms();
 
@@ -64,7 +67,7 @@ function loadCSV(fileName = currentFile) {
                               `;
                             },
                             orderable: false,
-                            searchable: false
+                            searchable: true // Ensure Notes is searchable
                         },
                         {
                             data: "Citation",
@@ -73,11 +76,14 @@ function loadCSV(fileName = currentFile) {
                         }
                     ],
                     pageLength: 200,
-                    lengthMenu: [[50, 200, -1], [50, 200, "All"]]
+                    lengthMenu: [[50, 200, -1], [50, 200, "All"]],
+                    search: {
+                        smart: true // Enable smart search for all columns
+                    }
                 });
 
                 $('#data-table_filter input')
-                    .attr('placeholder', 'Author, Year, State, ...')
+                    .attr('placeholder', 'All fields (Author, Year, State, ...)')
                     .css('width', '250px');
             }
         }
